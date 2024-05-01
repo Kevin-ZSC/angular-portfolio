@@ -1,13 +1,13 @@
-<nav>
-    <ul>
-        <li><a routerLink="home">Home</a></li>
-        <li><a routerLink="aboutme">About me</a></li>
-        <li class="my"><a routerLink="">Me.</a></li>
-        <li><a routerLink="project">Project</a></li>
-        <li><a routerLink="contact">Contact</a></li>
-    </ul>
+
+<nav class="bg-cyan-200">
+  <div class="flex flex-col items-center sm:flex-row gap-11 py-3 justify-center">
+    <a routerLink="home" class="bg-blue-900 text-white rounded-md px-3 py-2 text-sm font-medium">Home</a>
+    <a routerLink="aboutme" class="text-black-300 hover:bg-blue-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About Me</a>
+    <a routerLink="project" class="text-black-300 hover:bg-blue-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+    <a routerLink="contact" class="text-black-300 hover:bg-blue-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
+  </div>
 </nav>
 
-  <div>
-    <router-outlet></router-outlet>
-  </div>
+<div>
+  <router-outlet></router-outlet>
+</div>
